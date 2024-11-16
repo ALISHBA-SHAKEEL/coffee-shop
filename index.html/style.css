@@ -1,0 +1,112 @@
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/1010/2/HD-wallpaper-coffee-hot-drink-wooden-cup.jpg);
+     background-size: 100% auto;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+    padding: 10px 20px;
+}
+
+.navbar .logo img {
+    height: 60px; /* Adjust the height to your preference */
+    width: auto;  /* Maintain aspect ratio */
+    vertical-align: middle;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f0f0f0;
+}
+  
+  
+H1{
+    color: aliceblue;
+    font-size: 60px;
+}
+p{
+    color: aliceblue;
+}
+#CON{
+    width: 800PX;
+   color: aliceblue;
+    padding-left: 40PX;
+}
+.button1, .button2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    margin-right: 20px; /* adds space between buttons */
+  }
+  
+  /* Optional: Add some styling */
+  .button1 {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .button2 {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+#btn{
+    padding: 10px;
+    width: 100px;
+}
+#btn1{
+    padding: 10px;
+    background-color: rgba(150, 75, 0, 0.8)
+    ;
+    border: 2px solid  rgba(150, 75, 0, 0.8) ;
+}
+#btn1:hover{
+     /* styles to apply on hover */
+  background-color: #ccc; /* change background color */
+  color: rgba(150, 75, 0, 0.8); /* change text color */
+  transform: scale(1.1); /* scale up */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* add shadow */
+  cursor: pointer; /* change cursor shape */
+
+}
+
+#moreText {
+    display: none; /* Hide the additional text by default */
+    /* margin-top: 10px; */
+}
+/* #btn {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+} */
